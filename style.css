@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, blue, pink);
+}
+
+.wrapper {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container {
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+}
+
+.btn-Opt {
+    background: white;
+    height: 22vmin;
+    width: 22vmin;
+    border: none;
+    border-radius: 14px;
+    font-size: 9vmin;
+    color: blue;
+    box-shadow: 0, 0, 15px rgba(0, 0, 0, 0.1);
+}
+
+#restart {
+    font-size: 1.3em;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    position: relative;
+    margin: 1.5em auto 0 auto;
+    display: block;
+}
+
+.firstDisplay {
+    background: linear-gradient(135deg, blue, pink);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#new_game {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    width: 300px;
+    height: 100px;
+    margin-left: 30%;
+    background-color: black;
+    color: white;
+    border-radius: 0.3em;
+    border: none;
+}
+#Heading{
+    font-size: 80px;
+    margin-top: 10px;
+    padding: 20px;
+    color: black;
+    background-color: purple;
+    border: 20px;
+}
+#subheading{
+    font-size: 50px;
+    margin-left: 25%;
+    padding: 3px;
+    color: black;
+    border: none;
+
+}
+#message {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.hide {
+    display: none;
+}
+
+/* Popup message styling */
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 2em;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 3;
+}
+
